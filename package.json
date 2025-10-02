@@ -1,0 +1,26 @@
+{
+  "name": "playwright-portfolio-project",
+  "version": "1.0.0",
+  "description": "A sample E2E test automation framework using Playwright for a portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "posttest": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "javascript",
+    "testing",
+    "allure"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.12.0"
+  }
+}
