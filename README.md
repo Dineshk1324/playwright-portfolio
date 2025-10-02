@@ -28,7 +28,7 @@ This project is a comprehensive End-to-End test automation framework built with 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPOSITORY_URL]
+    git clone (https://github.com/Dineshk1324/playwright-portfolio.git)
     cd playwright-portfolio
     ```
 
